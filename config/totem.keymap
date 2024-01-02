@@ -56,13 +56,13 @@
                        <&macro_tap &kp G &kp I &kp F>;
         };
 
-        ntilde: ntilde {
-            label = "ntilde";
+        n_tilde: n_tilde {
+            label = "n_tilde";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &kp LSHFT>,
+            bindings = <&macro_press &kp LALT>,
                        <&macro_tap &kp N>,
-                       <&macro_release &kp LSHFT>,
+                       <&macro_release &kp LALT>,
                        <&macro_tap &kp N>;
         };
     };
@@ -86,7 +86,7 @@
 
  bindings = <     &kp Q         &kp W         &kp F         &kp P         &kp G             &kp J         &kp L         &kp U         &kp Y         &kp SEMI
                   &mt LGUI A    &mt LALT R    &mt LCTRL S   &mt LSHFT T   &kp D             &kp H         &mt RSHFT N   &mt RCTRL E   &mt RALT I    &mt RGUI O
-    &ntilde       &kp Z         &kp X         &kp C         &kp V         &kp B             &kp K         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp BSLH
+    &n_tilde       &kp Z         &kp X         &kp C         &kp V         &kp B             &kp K         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp BSLH
                                               &kp DEL       &lt NAV TAB   &kp SPACE         &kp RET       &lt SYM ESC   &kp BSPC >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
